@@ -1,0 +1,166 @@
+body {
+	width: 100%;
+	z-index: -3;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* Header
+   ========================================================================== */
+
+.header {
+	float: left;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	padding: 25px;
+	width: 175px;
+	text-align: center;
+}
+
+h1 {
+	display: inline;
+	text-align: center;
+}
+
+.box1{
+	float: left;
+	background-color: white;
+	height: 80px;
+	width: 400px;
+}
+
+.nav {
+	background-color: white;
+}
+
+.nav ul li {
+
+	float: left;
+	background-color: white;
+	color: gray;
+	font-family: arial;
+	font-size: 14px;
+	padding: 33px;
+	display: inline-block;
+
+}
+
+/* General elements
+   ========================================================================== */
+
+.box2{
+
+	margin: 0 auto;
+	width: 960px;
+	background-color: red;
+}
+
+.about {
+	float: left;
+	background-color: white;
+	width: 650px;
+	height: 420px;
+	margin: 50px 20px 50px 0;
+	text-align: center;
+}
+
+.connect {
+	float: left;
+	background-color: white;
+	width: 650px;
+	height: 580px;
+	margin: 50px 20px 50px 0;
+	text-align: center;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 30px;
+	padding: 40px;
+	text-align: left;
+}
+
+hr {
+	margin: 5px 40px;
+	color: gray;
+}
+
+p {
+	font-family: arial;
+	font-color: gray;
+	text-align: left;
+	padding: 10px;
+	margin: 0 30px 0 30px;
+}
+
+.profile{
+	padding: 40px;
+	float: left;
+}
+
+form {
+	float: left;
+}
+.messages {
+	float: left;
+	text-align: left;
+	font-family: arial;
+	font-size: 20px;
+	padding: 40px;
+
+}
+
+.submit {
+	float: left;
+	font-family: arial;
+	padding: 10px;
+	margin: 10px 0 0 0;
+	color: white;
+	background-color: #4aaaa5;
+}
+
+/* Contact elements
+   ========================================================================== */
+
+.contact {
+	float: left;
+	background-color: white;
+	width: 270px;
+	height: 180px;
+	margin: 50px 0px 50px 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 22px;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.social {
+	margin: 25px 0 0 50px;
+}
+
+/* Footer elements
+   ========================================================================== */
+.border {
+	clear: both;
+	background-color: #4aaaa5;
+	height: 8px;
+}
+
+footer {
+	background-color: #666666;
+	color: lightgray;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	padding: 30px;
+	margin: 0;
+}

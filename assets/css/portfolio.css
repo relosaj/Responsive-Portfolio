@@ -1,0 +1,213 @@
+
+
+body {
+	width: 100%;
+	background-color: red;
+	z-index: -3;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* Header
+   ========================================================================== */
+
+.header {
+	float: left;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	padding: 25px;
+	width: 175px;
+	text-align: center;
+}
+
+h1 {
+	display: inline;
+	text-align: center;
+}
+
+.box1{
+	float: left;
+	background-color: white;
+	height: 80px;
+	width: 400px;
+}
+
+.nav {
+	background-color: white;
+}
+
+.nav ul li {
+
+	float: left;
+	background-color: white;
+	color: gray;
+	font-family: arial;
+	font-size: 14px;
+	padding: 33px;
+	display: inline-block;
+
+}
+
+/* General elements
+   ========================================================================== */
+
+.box2{
+
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.portfolio {
+	float: left;
+	background-color: #666;
+	width: 650px;
+	height: 840px;
+	margin: 50px 20px 50px 0;
+	text-align: center;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 30px;
+	padding: 40px;
+	text-align: left;
+}
+
+hr {
+	margin: 5px 40px;
+	color: gray;
+}
+
+.pic{
+	float: left;
+}
+
+
+.game1 {
+	float: left;
+	background-color: black;
+	height: 170px;
+	width: 240px;
+	margin: 31px 40px 31px 40px;
+}
+
+
+.hangman {
+	color: white;
+	font-size: 18px;
+	background: #4aaaa5;
+	padding: 15px 40px;
+	margin: 110px 0 0 0;
+	z-index: 2;
+}
+
+.game2 {
+	float: left;
+	background-color: black;
+	height: 170px;
+	width: 240px;
+	margin: 31px;
+}
+
+.rpg {
+	color: white;
+	font-size: 18px;
+	background: #4aaaa5;
+	padding: 15px 40px;
+	margin: 110px 0 0 0;
+}
+.game3 {
+	float: left;
+	background-color: black;
+	height: 170px;
+	width: 240px;
+	margin: 31px 40px 31px 40px;
+}
+
+.trivia {
+	color: white;
+	font-size: 18px;
+	background: #4aaaa5;
+	padding: 15px 40px;
+	margin: 110px 0 0 0;
+}
+
+.game4 {
+	float: left;
+	background-color: black;
+	height: 170px;
+	width: 240px;
+	margin: 31px;
+}
+
+.rutgers {
+	color: white;
+	font-size: 18px;
+	background: #4aaaa5;
+	padding: 15px 40px;
+	margin: 110px 0 0 0;
+}
+
+.game5 {
+	float: left;
+	background-color: black;
+	height: 170px;
+	width: 240px;
+	margin: 31px 40px 31px 40px;
+}
+
+.rock {
+	color: white;
+	font-size: 18px;
+	background: #4aaaa5;
+	padding: 15px 40px;
+	margin: 110px 0 0 0;
+}
+
+
+/* Contact elemetns
+   ========================================================================== */
+
+.contact {
+	float: left;
+	background-color: white;
+	width: 270px;
+	height: 180px;
+	margin: 50px 0px 50px 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 22px;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.social {
+	margin: 25px 0 0 50px;
+}
+
+/* Footer elements
+   ========================================================================== */
+.border {
+	clear: both;
+	background-color: #4aaaa5;
+	height: 8px;
+}
+
+footer {
+	background-color: #666666;
+	color: lightgray;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	padding: 30px;
+}
