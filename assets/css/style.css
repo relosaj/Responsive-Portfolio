@@ -237,3 +237,126 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    float: left;
+  }
+
+  nav a {
+    margin-left: 100px;
+  }
+
+  .main-section {
+    width: 90%;
+    margin-left: 25px;
+  }
+
+  .auth-image {
+    width: 90%;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 90%;
+    margin-left: 25px;
+  }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 450px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+
+  .container {
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 768px;
+  }
+
+  .main-section {
+    max-width: 100%;
+  }
+
+  .auth-image {
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 100%;
+  }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 295px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 769px) {
+ 
+  .container {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  nav {
+    margin-right: 50px;
+  }
+
+
+  .main-section {
+    width: 50%;
+    margin-top: 40px;
+  }
+
+  .auth-image {
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 40%;
+    margin-left: 40px;
+    margin-top: 40px;
+
+  }
+
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .social {
+    margin-left: 19px;
+  }
+
+}
